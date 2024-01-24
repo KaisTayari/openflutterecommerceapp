@@ -15,8 +15,8 @@ class FilterSelectableItem extends StatelessWidget {
           decoration: BoxDecoration(
               borderRadius: BorderRadius.all(Radius.circular(4)),
               border:
-                  Border.all(color: isSelected ? Theme.of(context).accentColor : Theme.of(context).primaryColorLight),
-              color: isSelected ? Theme.of(context).accentColor : AppColors.white),
+                  Border.all(color: isSelected ? Theme.of(context).colorScheme.secondary : Theme.of(context).primaryColorLight),
+              color: isSelected ? Theme.of(context).colorScheme.secondary : AppColors.white),
           padding: EdgeInsets.symmetric(vertical: AppSizes.sidePadding, horizontal: AppSizes.sidePadding),
           child: Text(
             text,

@@ -33,7 +33,7 @@ class OrderRepository {
       promo: Promo(
         daysLeft: 6,
         discount: 10,
-        image: "",
+        image: '',
         promoCode: 'promo12',
         textColor: Colors.white,
         title: 'Promo 12'),
@@ -58,7 +58,7 @@ class OrderRepository {
       promo: Promo(
         daysLeft: 6,
         discount: 10,
-        image: "",
+        image: '',
         promoCode: 'promo12',
         textColor: Colors.white,
         title: 'Promo 12'),
@@ -89,7 +89,7 @@ class OrderRepository {
             ratingCount: 10,
             price: 15,
             title: 'Pullover',
-            selectableAttributes: [sizeAttribute, colorAttribute], categories: [], hashTags: [], subTitle: "", shortDescription: '', description: '', created: DateTime.now(), properties: {},
+            selectableAttributes: [sizeAttribute, colorAttribute], categories: [], hashTags: [], subTitle: '', shortDescription: '', description: '', created: DateTime.now(), properties: {},
           ),
           selectedAttributes: HashMap.fromEntries([
             MapEntry(sizeAttribute, 'S'),
@@ -107,7 +107,7 @@ class OrderRepository {
             price: 15,
             title: 'T-shirt',
             selectableAttributes: [sizeAttribute, colorAttribute],
-            categories: [], hashTags: [], subTitle: "", shortDescription: '', description: '', created: DateTime.now(), properties: {},
+            categories: [], hashTags: [], subTitle: '', shortDescription: '', description: '', created: DateTime.now(), properties: {},
           ),
           selectedAttributes: HashMap.fromEntries([
             MapEntry(sizeAttribute, 'S'),
@@ -126,7 +126,7 @@ class OrderRepository {
             price: 15,
             title: 'Sport Dress',
             selectableAttributes: [sizeAttribute, colorAttribute],
-            categories: [], hashTags: [], subTitle: "", shortDescription: '', description: '', created: DateTime.now(), properties: {},
+            categories: [], hashTags: [], subTitle: '', shortDescription: '', description: '', created: DateTime.now(), properties: {},
           ),
           selectedAttributes: HashMap.fromEntries([
             MapEntry(sizeAttribute, 'S'),
@@ -138,7 +138,7 @@ class OrderRepository {
       promo: Promo(
         daysLeft: 6,
         discount: 10,
-        image: "",
+        image: '',
         promoCode: 'promo12',
         textColor: Colors.white,
         title: 'Promo 12'),

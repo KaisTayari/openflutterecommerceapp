@@ -21,7 +21,7 @@ class PromoCodeModel extends PromoCodeEntity {
     discountPercent: discountPercent,
     dateExpires: dateExpires,
     belongsToUser: false,
-    image: "",
+    image: '',
     wasUsed: false
   );
 

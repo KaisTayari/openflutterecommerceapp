@@ -186,7 +186,7 @@ class ProductReviewWrapperState extends State<ProductReviewWrapper> {
         vertical: 8.0,
       ),
       child: OpenFlutterRatingSummary(
-        barColor: Theme.of(context).accentColor,
+        barColor: Theme.of(context).colorScheme.secondary,
         ratingQuantity: widget.product.ratingCount,
         rating: widget.product.averageRating,
       ),

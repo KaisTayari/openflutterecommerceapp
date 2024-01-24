@@ -46,7 +46,7 @@ class OpenFlutterBlockSubtitle extends StatelessWidget {
                             child: Text(
                               linkText!,
                               style: _theme.textTheme.headline4
-                                  ?.copyWith(color: _theme.accentColor),
+                                  ?.copyWith(color: _theme.colorScheme.secondary),
                             ),
                           ),
                         ),

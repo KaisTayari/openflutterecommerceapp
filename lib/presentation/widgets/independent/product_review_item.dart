@@ -237,6 +237,6 @@ class OpenFlutterProductReviewItem extends StatelessWidget {
   }
 
   Color _getHelpfulColor(BuildContext context) {
-    return isHelpfulMarked ? Theme.of(context).accentColor : Theme.of(context).unselectedWidgetColor;
+    return isHelpfulMarked ? Theme.of(context).colorScheme.secondary : Theme.of(context).unselectedWidgetColor;
   }
 }

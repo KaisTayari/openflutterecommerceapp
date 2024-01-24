@@ -40,7 +40,7 @@ class OpenFlutterActionCard extends StatelessWidget {
                             child: InkWell(
                               onTap: (() => {onLinkTap()}),
                               child:
-                                  Text(linkText, style: _theme.textTheme.headline2?.copyWith(color: _theme.accentColor)),
+                                  Text(linkText, style: _theme.textTheme.headline2?.copyWith(color: _theme.colorScheme.secondary)),
                             ))
                         : Container()
                   ],

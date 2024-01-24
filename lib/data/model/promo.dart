@@ -29,7 +29,7 @@ class Promo extends Equatable {
         discount: entity.discountPercent,
         textColor: Colors.white,
         daysLeft: entity.dateExpires!.difference(DateTime.now()).inDays,
-        image: ""
+        image: ''
       );
     } else {
       throw EntityModelMapperException(message: 'Entity should be of type ProductEntity');

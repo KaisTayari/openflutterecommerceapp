@@ -31,7 +31,7 @@ class VisualFilter extends StatelessWidget {
                 AppSizes.linePadding,
               ),
               backgroundColor: Theme.of(context).primaryColor,
-              selectedColor: Theme.of(context).accentColor,
+              selectedColor: Theme.of(context).colorScheme.secondary,
               label: Text(
                 optionHashTag.title,
                 style: Theme.of(context).textTheme.button,

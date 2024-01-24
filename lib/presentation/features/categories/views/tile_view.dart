@@ -61,7 +61,7 @@ class _CategoriesTileViewState extends State<CategoriesTileView>
                     width: width,
                     padding: EdgeInsets.all(AppSizes.sidePadding * 2),
                     decoration: BoxDecoration(
-                      color: _theme.accentColor,
+                      color: _theme.colorScheme.secondary,
                       borderRadius: BorderRadius.circular(AppSizes.imageRadius),
                     ),
                     child: Column(

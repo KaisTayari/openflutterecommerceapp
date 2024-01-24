@@ -53,7 +53,7 @@ class OpenFlutterPriceRangeSlider extends StatelessWidget {
             ),
             RangeSlider(
               divisions: max.toInt() - min.toInt(),
-              activeColor: _theme.accentColor,
+              activeColor: _theme.colorScheme.secondary,
               inactiveColor: _theme.primaryColorLight,
               max: max,
               min: min,

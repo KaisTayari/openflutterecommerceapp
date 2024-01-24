@@ -53,7 +53,7 @@ class _Main3ViewState extends State<Main3View> {
                   height: width / 2 - 2,
                   padding: EdgeInsets.all(AppSizes.sidePadding),
                   child: Text('Summer sale',
-                      style: _theme.textTheme.headline5?.copyWith(fontSize: 34, color: _theme.accentColor))),
+                      style: _theme.textTheme.headline5?.copyWith(fontSize: 34, color: _theme.colorScheme.secondary))),
               Container(
                   height: width / 2,
                   width: width / 2,
